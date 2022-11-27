@@ -1,6 +1,6 @@
 {
-    "name": "node-easy-cache",
-    "version": "1.0.0",
+    "name": "cache-easy",
+    "version": "1.0.1",
     "private": false,
     "main": "dist/src/index.js",
     "scripts": {
@@ -12,9 +12,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/maximekreber/node-easy-cache.git"
+        "url": "https://github.com/maximekreber/cache-easy.git"
     },
     "keywords": [
+        "cache-easy",
+        "easy",
         "cache",
         "node-cache",
         "node-easy-cache",
