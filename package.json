@@ -2,14 +2,14 @@
     "name": "cache-easy",
     "version": "1.0.2",
     "private": false,
-    "main": "dist/src/index.js",
+    "main": "index.js",
     "scripts": {
         "build": "yarn clean && tsc",
         "clean": "rm -rf dist",
         "test": "jest",
         "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
         "lint": "eslint \"{src,tests}/**/*.ts\"",
-        "publish-script": "yarn build && cp package.json ./dist/package.json && cd dist && yarn publish"
+        "publish-script": "yarn build && cp package.json README.md dist/ && cd dist && yarn publish"
     },
     "repository": {
         "type": "git",
