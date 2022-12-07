@@ -1,4 +1,4 @@
-export default class SimpleCache {
+export default class CacheEasy {
     private data: any = {};
     private ttl: number;
     private checkInterval: NodeJS.Timer;
